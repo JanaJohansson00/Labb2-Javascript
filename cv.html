@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jana Johansson - CV</title>
+  </head>
+  <body>
+    <header>
+      <h1>Jana Johansson</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="om-mig.html">Om mig</a></li>
+          <li><a href="cv.html" class="active">CV</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="data">
+      <section>
+        <h1>Personlig information</h1>
+        <div id="personlig-information">Laddar personlig information...</div>
+      </section>
+
+      <section>
+        <h1>Styrkor</h1>
+        <div id="styrkor">Laddar styrkor...</div>
+      </section>
+
+      <section>
+        <h1>Arbetsplatser</h1>
+        <div id="arbetsplatser">Laddar arbetsplatser...</div>
+      </section>
+
+      <section>
+        <h1>Utbildningar</h1>
+        <div id="utbildningar">Laddar utbildningar...</div>
+      </section>
+    </div>
+    <footer>
+      <p id="easter-egg">&copy; 2024 Jana Johansson.</p>
+    </footer>
+    <script src="scripts/easter-egg2.js"></script>
+    <script src="scripts/cv.js"></script>
+    <script>
+      loadCv();
+      popMessage();
+      const easter = document.getElementById('easter-egg');
+      easter.addEventListener('click', changeBackground);
+    </script>
+  </body>
+</html>

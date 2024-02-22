@@ -1,0 +1,53 @@
+{
+  "personligInformation": {
+    "namn": "Jana Johansson",
+    "ålder": "23 år",
+    "email": "janajohansson00@hotmail.com",
+    "telefonnummer": "076-100 96 05"
+  },
+  "styrkor": ["Målmedveten", "Ordningsam", "Ansvarstagande", "Stresstålig"],
+  "utbildningar": [
+    {
+      "titel": "Ekonomiprogrammet",
+      "skola": "Sundsvall Gymnasium Hedbergska",
+      "period": "2016-2019"
+    },
+    {
+      "titel": "Systemutvecklare med AI-kompetens",
+      "skola": "Distansutbildning",
+      "period": "2023-Pågående"
+    }
+  ],
+  "arbetsplatser": [
+    {
+      "titel": "Lokalvårdare",
+      "arbetsgivare": "Städ och Sanering AB",
+      "period": "2014-2016",
+      "beskrivning": "Flyttstäd, Sanering, Trädgårdsarbete"
+    },
+    {
+      "titel": "Sommarvikarie",
+      "arbetsgivare": "Pichano AB",
+      "period": "Sommaren 2017-2018",
+      "beskrivning": "Trädgårdsarbete, Städning av lokaler i industrimiljö"
+    },
+    {
+      "titel": "Butiksbiträde",
+      "arbetsgivare": "Twilfit",
+      "period": "November 2018-Augusti 2019",
+      "beskrivning": "Kassahantering, Kundservice, Försäljning"
+    },
+    {
+      "titel": "Saneringstekniker",
+      "arbetsgivare": "Polygon",
+      "period": "Augusti 2019-Maj 2020",
+      "beskrivning": "Sanering, Flyttstäd"
+    },
+    {
+      "titel": "Försäkringsrådgivare",
+      "arbetsgivare": "Folksam",
+      "period": "Maj 2020-Nuvarande (studieledig)",
+      "beskrivning": "Försäljning, Kundservice, Rådgivning"
+    }
+  ]
+}

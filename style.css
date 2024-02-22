@@ -1,0 +1,420 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline;
+    margin-right: 40px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #464a4e;
+  }
+
+  a.active {
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  display: inline;
+  margin-right: 20px;
+}
+/*FOOTER*/
+footer {
+  background-color: #f4eae9;
+  color: #464a4e;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/*NEDANFÖR ÄR OM MIG SIDAN*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f4eae9;
+  color: #464a4e;
+  text-align: center;
+  padding: 20px 0;
+}
+.about-wrapper {
+  height: 100vh;
+}
+.about-left {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.about-left-content > div {
+  background: #f4eae9;
+  padding: 4rem 4rem 2.5rem 5rem;
+  text-align: center;
+}
+.about-left-content {
+  box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+  -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+}
+.about-img img {
+  display: block;
+  width: 200px;
+}
+.about-img {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+.shadow {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  cursor: pointer;
+}
+.shadow::after {
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+  height: 7px;
+  width: 50px;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+.shadow:hover .about-img {
+  transform: translateY(-10px);
+}
+.shadow:hover::after {
+  opacity: 1;
+}
+.about-left-content h2 {
+  font-size: 2rem;
+  margin: 2.2rem 0 0.6rem 0;
+  line-height: 1.2;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #f4eae9;
+}
+.about-left-content h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
+  margin-top: 1.2rem;
+}
+.icons {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem 0;
+}
+.icons li {
+  list-style-type: none;
+  background: #cbb28e;
+  color: #464a4e;
+  width: 40px;
+  height: 40px;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.icons li:hover {
+  background: #f4eae9;
+  color: #333;
+}
+.about-right {
+  background: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5rem;
+  text-align: center;
+}
+.about-right h1 {
+  font-size: 7rem;
+  text-transform: uppercase;
+  color: #464a4e;
+}
+.about-right h1 span {
+  color: #cbb28e;
+}
+.about-right h2 {
+  font-weight: 600;
+  color: #666;
+}
+.about-btns {
+  display: flex;
+  margin: 2rem 0;
+}
+.btn {
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 0.55rem 0;
+  width: 130px;
+  font-weight: 600;
+  background: transparent;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.about-para p {
+  font-weight: 300;
+  padding: 0.5rem;
+  opacity: 0.8;
+  color: #464a4e;
+}
+/*NEDANFÖR ÄR CV*/
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  padding: 26px;
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+.header h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+/* Stilmall för rubriker */
+h2 {
+  background-color: #f4eae9;
+  padding: 15px;
+  color: #464a4e;
+  margin: 30px 0;
+  font-size: 20px;
+  border-radius: 0 50px 50px 0;
+}
+
+/* Responsivitet för mindre skärmar */
+@media only screen and (max-width: 600px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+}
+
+.arbetsplats ul {
+  list-style-type: none;
+}
+
+.arbetsplats {
+  border: 1px black;
+  border-radius: 5%;
+  border-style: solid;
+  margin: 5px;
+}
+
+.utbildning ul {
+  list-style-type: none;
+}
+
+.utbildning {
+  border: 1px black;
+  border-radius: 5%;
+  border-style: solid;
+  margin: 5px;
+}
+
+/*NEDANFÖR ÄR KONTAKT-SIDAN*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact .content {
+  max-width: 800px;
+  text-align: center;
+}
+.contact .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #464a4e;
+}
+.contact .content p {
+  font-weight: 300;
+  color: #464a4e;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.container .contactInfo,
+.container .contactForm {
+  width: 50%;
+  background: #f4eae9;
+}
+.container .contactInfo {
+  width: 50%;
+  flex-direction: column;
+}
+.container .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+.container .contactInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: #f4eae9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.container .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #464a4e;
+  flex-direction: column;
+  font-weight: 300;
+}
+.container .contactInfo .box .text h3 {
+  font-weight: 600;
+  color: #464a4e;
+}
+.contactForm {
+  padding: 40px;
+  background: #f4eae9;
+  display: inline-block;
+  margin: 20px;
+}
+.contactInfo {
+  display: inline-block;
+  float: left;
+  margin-top: 150px;
+}
+
+.contactForm h2 {
+  font-size: 30px;
+  color: #464a4e;
+  font-weight: 600;
+}
+.contactForm .inputbox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contactForm .inputbox input,
+.contactForm .inputbox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+.contactForm .inputbox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+.contactForm .inputbox input:focus ~ span,
+.contactForm .inputbox input:valid ~ span,
+.contactForm .inputbox textarea:focus ~ span,
+.contactForm .inputbox textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translate(-20px);
+}
+.contactForm .inputbox input[type='submit'] {
+  width: 100px;
+  background: #ddc6a4;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+@media (max-width: 991px) {
+  .contact {
+    padding: 50px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .container .contactInfo,
+  .container .contactForm {
+    width: 100%; /* Full bredd på mindre skärmar */
+    margin-top: 20px; /* Lite utrymme mellan dem */
+  }
+}
